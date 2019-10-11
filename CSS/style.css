@@ -1,0 +1,102 @@
+body .body{
+    color: rgb(30, 155, 177);
+   
+}
+
+#navbar {
+    background: rgb(75, 173, 190);
+    font-size: 1.5rem;
+    padding-right: 2rem;
+
+}
+
+.navbar-brand {
+    font-size: 3rem;
+    font-weight: 900;
+    padding-left: 2rem ;
+}
+#welcome-section {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://images.unsplash.com/photo-1479981280584-037818c1297d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: rgb(27, 140, 160);
+    
+    
+    /* background: rgb(195, 245, 245); */
+
+}
+
+#welcome-section h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    
+}
+
+#welcome-section p {
+    font-size: 2rem;
+    font-style: italic;
+}
+
+#projects {
+    background: rgb(104, 225, 247);
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding-bottom: 5rem;
+}
+
+#project h1 {
+    margin-top: 5rem;
+    padding: 1rem auto 1rem auto;
+}
+
+#projects .card {
+    color: rgb(7, 88, 88);
+}
+
+hr {
+    border: 0;
+    width: 20rem;
+    height: 2px;
+    background: rgb(75, 173, 190);
+    background-image: -webkit-linear-gradient(left, #ccc,rgb(75, 173, 190), #ccc);
+    background-image: -moz-linear-gradient(left, #ccc,rgb(75, 173, 190), #ccc);
+    background-image: -ms-linear-gradient(left, #ccc, rgb(75, 173, 190), #ccc);
+    background-image: -o-linear-gradient(left, #ccc, rgb(75, 173, 190), #ccc);
+}
+
+.card-body {
+    background: rgb(195, 245, 245);
+    text-align: center;
+    padding: 5px;
+}
+
+#contact {
+    display: flex;
+    width: 100%;
+    height: 80vh;
+}
+
+#contact a {
+    color: rgb(30, 155, 177);
+    font-weight: bold;
+}
+
+#contact i {
+    font-size: 2rem;
+}
+
+footer {
+    background: rgb(75, 173, 190);
+    margin: 0;
+    width: 100%;
+    padding: 1rem;
+    color: rgb(195, 245, 245);
+}
